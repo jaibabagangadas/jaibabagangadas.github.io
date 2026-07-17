@@ -286,3 +286,167 @@ cursor:pointer;
 transform:scale(1.05);
 box-shadow:0 15px 35px rgba(0,0,0,.25);
 }
+/* ===========================
+   Footer
+=========================== */
+
+footer{
+background:#4b1805;
+color:#fff;
+padding:60px 60px 20px;
+}
+
+.footer-container{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:35px;
+}
+
+.footer-box h3{
+color:#ffd27d;
+margin-bottom:20px;
+font-size:24px;
+}
+
+.footer-box p,
+.footer-box a{
+color:#f5f5f5;
+text-decoration:none;
+font-size:17px;
+line-height:1.9;
+}
+
+.footer-box a:hover{
+color:#ffd27d;
+}
+
+.footer-bottom{
+margin-top:35px;
+padding-top:20px;
+border-top:1px solid rgba(255,255,255,.2);
+text-align:center;
+font-size:16px;
+color:#ddd;
+}
+
+/* ===========================
+   Google Map
+=========================== */
+
+.map{
+width:100%;
+height:300px;
+border:none;
+border-radius:12px;
+overflow:hidden;
+box-shadow:0 10px 25px rgba(0,0,0,.15);
+}
+
+/* ===========================
+   Floating Button
+=========================== */
+
+.float-btn{
+position:fixed;
+right:20px;
+bottom:20px;
+width:65px;
+height:65px;
+border-radius:50%;
+background:#d97706;
+color:#fff;
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:28px;
+text-decoration:none;
+box-shadow:0 10px 25px rgba(0,0,0,.25);
+transition:.3s;
+z-index:999;
+}
+
+.float-btn:hover{
+background:#b85e00;
+transform:scale(1.08);
+}
+
+/* ===========================
+   Responsive
+=========================== */
+
+@media(max-width:992px){
+
+header{
+flex-direction:column;
+padding:20px;
+}
+
+nav{
+margin-top:15px;
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:12px;
+}
+
+.overlay{
+flex-direction:column;
+text-align:center;
+}
+
+.right h1{
+font-size:52px;
+}
+
+.history{
+grid-template-columns:1fr;
+}
+
+.topbar{
+padding:10px 20px;
+font-size:15px;
+}
+
+}
+
+@media(max-width:600px){
+
+.topbar{
+flex-direction:column;
+gap:10px;
+}
+
+.logo{
+flex-direction:column;
+text-align:center;
+}
+
+.right h1{
+font-size:38px;
+}
+
+.right p{
+font-size:18px;
+}
+
+.right h3{
+font-size:24px;
+}
+
+.hero,
+.history,
+.gallery,
+.info-section,
+footer{
+padding:25px;
+}
+
+.card{
+padding:20px;
+}
+
+.gallery-grid{
+grid-template-columns:1fr;
+}
+
+}

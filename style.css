@@ -1,1 +1,152 @@
-body{font-family:Arial;margin:0;background:#fff8ef;color:#333}header{background:#b35a00;color:#fff;padding:20px;text-align:center}nav{background:#e48a1a;padding:10px;text-align:center}nav a{color:#fff;margin:0 10px;text-decoration:none}section{padding:20px}#hero{background:#ffe4b5;text-align:center}footer{background:#222;color:#fff;text-align:center;padding:15px}
+/* -----------------------
+   Jai Baba Ganga Das Dham
+   Premium Theme
+-------------------------*/
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
+}
+
+body{
+font-family:'Poppins',sans-serif;
+background:#fff8ef;
+color:#333;
+line-height:1.6;
+}
+
+/* Top Bar */
+
+.topbar{
+background:#d96a00;
+color:#fff;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:8px 60px;
+font-size:18px;
+font-weight:600;
+}
+
+.social a{
+color:#fff;
+margin-left:15px;
+font-size:20px;
+transition:.3s;
+}
+
+.social a:hover{
+color:#ffe28a;
+}
+
+/* Header */
+
+header{
+background:#5b1d06;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 60px;
+position:sticky;
+top:0;
+z-index:999;
+}
+
+.logo{
+display:flex;
+align-items:center;
+gap:15px;
+}
+
+.logo img{
+width:70px;
+height:70px;
+border-radius:50%;
+}
+
+.logo h2{
+color:#fff;
+font-size:26px;
+}
+
+.logo p{
+color:#ffd57d;
+font-size:14px;
+}
+
+nav a{
+color:#fff;
+text-decoration:none;
+margin-left:25px;
+font-size:17px;
+transition:.3s;
+}
+
+nav a:hover{
+color:#ffcb54;
+}
+
+/* Hero */
+
+.hero{
+background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55));
+padding:70px 60px;
+}
+
+.overlay{
+display:flex;
+align-items:center;
+justify-content:space-between;
+gap:40px;
+}
+
+.left img{
+width:100%;
+max-width:520px;
+border-radius:15px;
+box-shadow:0 15px 40px rgba(0,0,0,.35);
+}
+
+.right{
+color:#fff;
+text-align:center;
+max-width:600px;
+}
+
+.right h1{
+font-size:72px;
+color:#ffd15c;
+line-height:1.1;
+margin-bottom:20px;
+}
+
+.right h3{
+font-size:34px;
+margin:25px 0;
+color:#ffe7a3;
+}
+
+.right p{
+font-size:24px;
+margin-top:15px;
+}
+
+.btn{
+display:inline-block;
+margin-top:25px;
+padding:15px 35px;
+background:#f08a00;
+color:#fff;
+text-decoration:none;
+font-size:20px;
+border-radius:8px;
+font-weight:bold;
+transition:.3s;
+}
+
+.btn:hover{
+background:#c96d00;
+transform:translateY(-3px);
+}

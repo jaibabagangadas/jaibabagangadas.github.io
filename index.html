@@ -1,266 +1,127 @@
-
 <!DOCTYPE html>
 <html lang="hi">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>श्री बाबा गंगा दास जी महाराज | गाँव पड़धाना</title>
+
+<title>श्री जय बाबा गंगा दास धाम | गाँव परधाना | पानीपत</title>
 
 <link rel="stylesheet" href="style.css">
 
-<style>
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial,Helvetica,sans-serif;
-}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
-html{
-scroll-behavior:smooth;
-}
-
-body{
-background:#fffdf5;
-color:#333;
-}
-
-header{
-background:linear-gradient(135deg,#ff9800,#ffcc33);
-padding:18px;
-position:fixed;
-width:100%;
-top:0;
-left:0;
-z-index:1000;
-box-shadow:0 2px 10px rgba(0,0,0,.2);
-}
-
-header h1{
-text-align:center;
-color:#fff;
-font-size:32px;
-}
-
-nav{
-margin-top:12px;
-text-align:center;
-}
-
-nav a{
-color:white;
-text-decoration:none;
-margin:12px;
-font-weight:bold;
-}
-
-.hero{
-margin-top:95px;
-height:90vh;
-background:url("images/Hero.jpg") center center/cover no-repeat;
-display:flex;
-justify-content:center;
-align-items:center;
-text-align:center;
-position:relative;
-}
-
-.hero::before{
-content:"";
-position:absolute;
-top:0;
-left:0;
-width:100%;
-height:100%;
-background:rgba(0,0,0,.45);
-}
-
-.hero-content{
-position:relative;
-z-index:2;
-color:white;
-padding:20px;
-}
-
-.hero-content h2{
-font-size:48px;
-margin-bottom:20px;
-}
-
-.hero-content p{
-font-size:22px;
-margin-bottom:25px;
-}
-
-.btn{
-display:inline-block;
-padding:14px 30px;
-background:#ff9800;
-color:white;
-text-decoration:none;
-border-radius:50px;
-font-weight:bold;
-}
-
-section{
-padding:70px 8%;
-}
-
-h2{
-text-align:center;
-color:#d35400;
-margin-bottom:25px;
-font-size:36px;
-}
-
-.about{
-font-size:19px;
-line-height:1.9;
-text-align:center;
-}
-</style>
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
 </head>
 
 <body>
 
+<!-- Top Header -->
+
+<div class="topbar">
+
+<div class="toptext">
+
+🌸🙏 जय बाबा गंगा दास जी 🙏🌸
+
+</div>
+
+<div class="social">
+
+<a href="#"><i class="fab fa-facebook-f"></i></a>
+
+<a href="#"><i class="fab fa-instagram"></i></a>
+
+<a href="#"><i class="fab fa-youtube"></i></a>
+
+</div>
+
+</div>
+
+<!-- Navigation -->
+
 <header>
 
-<h1>🙏 श्री बाबा गंगा दास जी महाराज 🙏</h1>
+<div class="logo">
+
+<img src="images/logo.png">
+
+<div>
+
+<h2>श्री जय बाबा गंगा दास धाम</h2>
+
+<p>गाँव परधाना, जिला पानीपत, हरियाणा</p>
+
+</div>
+
+</div>
 
 <nav>
-<a href="#about">परिचय</a>
-<a href="#mandir">मंदिर</a>
+
+<a href="#home">होम</a>
+
+<a href="#history">इतिहास</a>
+
+<a href="#samadhi">समाधि दर्शन</a>
+
 <a href="#gallery">गैलरी</a>
-<a href="#festival">होली महोत्सव</a>
+
+<a href="#aarti">आरती</a>
+
 <a href="#contact">संपर्क</a>
+
 </nav>
 
 </header>
 
-<section class="hero">
+<!-- Hero Section -->
 
-<div class="hero-content">
+<section class="hero" id="home">
 
-<h2>जय बाबा गंगा दास जी की</h2>
+<div class="overlay">
+
+<div class="left">
+
+<img src="images/Hero.jpg">
+
+</div>
+
+<div class="right">
+
+<h4>|| ॐ ||</h4>
+
+<h1>
+
+जय बाबा<br>
+
+गंगा दास जी
+
+</h1>
 
 <p>
-गाँव पड़धाना, तहसील इसराना,<br>
-जिला पानीपत, हरियाणा
+
+आमेर की गद्दी से इस पावन भूमि पर<br>
+
+पधारे तपस्वी संत
+
 </p>
 
-<a class="btn" href="#about">दर्शन करें</a>
+<h3>
+
+🙏 आप सभी का हार्दिक स्वागत है 🙏
+
+</h3>
+
+<a href="#samadhi" class="btn">
+
+समाधि दर्शन करें
+
+</a>
+
+</div>
 
 </div>
 
 </section>
-
-<section id="about">
-
-<h2>बाबा जी का परिचय</h2>
-
-<div class="about">
-
-<p>
-
-श्री बाबा गंगा दास जी महाराज की पावन समाधि
-गाँव पड़धाना में स्थित है।
-यह स्थान श्रद्धा, भक्ति एवं आस्था का केंद्र है।
-दूर-दूर से श्रद्धालु यहाँ दर्शन करने आते हैं
-और बाबा जी का आशीर्वाद प्राप्त करते हैं।
-
-</p>
-
-</div>
-
-</section>
-
-✅ अभी इसे Co
-<section id="mandir">
-
-<h2>मंदिर के दर्शन</h2>
-
-<div style="text-align:center;">
-
-<img src="images/Mandir.jpg"
-style="width:90%;max-width:900px;border-radius:15px;
-box-shadow:0 5px 20px rgba(0,0,0,.25);">
-
-<p style="margin-top:25px;font-size:20px;line-height:1.8;">
-
-श्री बाबा गंगा दास जी महाराज की पावन समाधि
-श्रद्धालुओं के लिए आस्था का महान केन्द्र है।
-प्रतिदिन श्रद्धालु यहाँ दर्शन कर
-बाबा जी का आशीर्वाद प्राप्त करते हैं।
-
-</p>
-
-</div>
-
-</section>
-
-<section id="gallery">
-
-<h2>फोटो गैलरी</h2>
-
-<div style="display:grid;
-grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-gap:25px;">
-
-<img src="images/Gallery.jpg"
-style="width:100%;border-radius:15px;">
-
-<img src="images/Darshan.jpg"
-style="width:100%;border-radius:15px;">
-
-<img src="images/Baba Ganga Das Mandir.jpg"
-style="width:100%;border-radius:15px;">
-
-<img src="images/Jai Baba ganga Das.jpg"
-style="width:100%;border-radius:15px;">
-
-</div>
-
-</section>
-
-<section id="festival"
-style="background:#fff4dd;">
-
-<h2>फाल्गुन होली एवं दुलंडी महोत्सव</h2>
-
-<p style="font-size:20px;
-line-height:2;
-text-align:center;">
-
-प्रत्येक वर्ष फाल्गुन मास में
-श्री बाबा गंगा दास जी महाराज के पावन स्थान पर
-होली एवं दुलंडी का विशाल धार्मिक कार्यक्रम आयोजित किया जाता है।
-
-भजन-कीर्तन, प्रसाद वितरण एवं विशाल भंडारे में
-हजारों श्रद्धालु भाग लेते हैं।
-
-</p>
-
-</section>
-  <p>
-श्री बाबा गंगा दास जी महाराज की पावन समाधि
-</p>
-
-<p>
-गाँव पड़धाना, तहसील इसराना,<br>
-जिला पानीपत, हरियाणा
-</p>
-
-<p>
-© 2026 सभी अधिकार सुरक्षित
-</p>
-
-<p style="margin-top:10px;color:#ffcc66;">
-Website Designed by Sandeep Kumar
-</p>
-
-</footer>
-
-</body>
-</html>
-  
